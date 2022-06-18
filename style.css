@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap');
 
 body {
   overflow-x: hidden;
@@ -488,9 +488,13 @@ body footer .footer-warper ul {
 body footer .footer-warper p {
   padding-top: 20em;
 }
-body footer .footer-warper .flink{
+
+body footer .footer-warper .flink {
   color: #fff;
   font-family: 'jost', 'sens-serif';
+  top: 50px;
+  left: auto;
+  right: auto;
 }
 
 body footer .flogo {
