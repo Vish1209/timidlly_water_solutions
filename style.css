@@ -70,6 +70,7 @@ body .nav .nav-warper ul li a:hover {
 }
 /* Style inputs */
 body .form{
+  color: #fff;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
