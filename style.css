@@ -70,8 +70,9 @@ body .nav .nav-warper ul li a:hover {
 }
 /* Style inputs */
 input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
+  font-family: 'jost','sens-serif';
+  width: 50%;
+  padding: 8px 10px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
@@ -81,7 +82,7 @@ input[type=text], select {
 
 /* Style the submit button */
 input[type=submit] {
-  width: 100%;
+  width: 50%;
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
