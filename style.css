@@ -496,13 +496,14 @@ body footer .footer-warper .flink {
   padding: 80px;
   left: auto;
   right: auto;
-  display: flexbox; 
+  display: flexbox;
+  cursor: pointer;
+ 
 }
 body footer .footer-warper .flink ul{
   display: flexbox;
-  left: 50px;
-  padding: 10px;
-  cursor: pointer;
+  left: 200px;
+  padding: 90px;
 
 }
 body footer .footer-warper .flink ul:hover{
