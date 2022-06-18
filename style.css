@@ -488,6 +488,10 @@ body footer .footer-warper ul {
 body footer .footer-warper p {
   padding-top: 20em;
 }
+body footer .footer-warper hr{
+  color: #fff;
+  height: 2px;
+}
 
 body footer .footer-warper .flink {
   color: #fff;
