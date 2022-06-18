@@ -78,7 +78,7 @@ body .form{
   right: 0;
   left: 0;
   background-color: #000;
-  display: table-column-group;
+  display: table-cell;
 
 }
 input[type=text], select {
