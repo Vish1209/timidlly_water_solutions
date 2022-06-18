@@ -438,7 +438,7 @@ body .fa-twitter {
 
 body footer {
   background: #0a065b;
-  height: 50%;
+  height: 80%;
 }
 
 body footer .footer-warper {
@@ -481,7 +481,7 @@ body footer .footer-warper ul {
 }
 
 body footer .footer-warper p {
-  padding-top: 10em;
+  padding-top: 20em;
 }
 
 body footer .footer-warper .flogo {
