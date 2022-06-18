@@ -131,6 +131,7 @@ body .parent .home-pic {
   position: absolute;
   top: -5px;
   float: right;
+  left: 1500px;
   width: 440px;
 }
 
