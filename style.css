@@ -71,6 +71,7 @@ body .nav .nav-warper ul li a:hover {
 /* Style inputs */
 body .form{
   display: inline-block;
+  vertical-align: middle;
   text-align: center;
   vertical-align: middle;
   right: 0;
