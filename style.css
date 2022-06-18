@@ -69,7 +69,7 @@ body .nav .nav-warper ul li a:hover {
   color: #0a065b;
 }
 
-{box-sizing: border-box;}
+*{box-sizing: border-box;}
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
