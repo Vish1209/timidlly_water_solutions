@@ -69,6 +69,10 @@ body .nav .nav-warper ul li a:hover {
   color: #0a065b;
 }
 /* Style inputs */
+body .form{
+  display: inline-block;
+  vertical-align: middle;
+}
 input[type=text], select {
   font-family: 'jost','sens-serif';
   width: 20%;
