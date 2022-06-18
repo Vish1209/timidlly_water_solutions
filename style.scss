@@ -477,6 +477,10 @@ body {
     footer {
         background: $linkHoverColor;
         height: 80%;
+        .flogo {
+            float: left;
+
+        }
 
         .footer-warper {
             display: flex;
@@ -503,10 +507,7 @@ body {
                 right: auto;
             }
 
-            .flogo {
-                float: left;
 
-            }
         }
     }
 
