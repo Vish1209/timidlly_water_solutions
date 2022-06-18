@@ -74,19 +74,22 @@ body {
         left: 0;
         overflow: hidden;
 
+        //background image
         .back-img {
             position: relative;
             height: 80vh;
             width: 210vh;
         }
 
+           //girl image
         .home-pic {
             position: absolute;
             top: -5px;
-            left: 840px;
+            left: 950px;
             width: 440px;
         }
 
+        //purifier image
         .home {
             position: absolute;
             top: 180px;
