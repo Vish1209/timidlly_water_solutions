@@ -66,6 +66,55 @@ body {
         }
     }
 
+    //contact form on hero
+    .form {
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style inputs */
+        input[type=text],
+        select,
+        textarea {
+            font-family: $primaryFont;
+            width: 50%;
+            padding: 12px;
+            border: 1px solid $secondaryColor;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: $secondaryColor;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            font-family: $primaryFont;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Style the container/contact section */
+        .form {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            font-family: $secondaryFont;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+            float: left;
+            width: 50%;
+            margin-top: 6px;
+            padding: 20px;
+            font-family: $primaryFont;
+        }
+
     // for images and heading
 
     .parent {
