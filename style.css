@@ -76,6 +76,7 @@ body .form{
   vertical-align: middle;
   right: 0;
   left: 0;
+  background-color: #000;
 }
 input[type=text], select {
   font-family: 'jost','sens-serif';
