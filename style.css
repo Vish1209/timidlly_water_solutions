@@ -492,8 +492,8 @@ body footer .footer-warper p {
 body footer .footer-warper .flink {
   color: #fff;
   font-family: 'jost', 'sens-serif';
-  top: 80px;
-  padding: 30px;
+  top: 150px;
+  padding: 80px;
   left: auto;
   right: auto;
   display: flexbox;
