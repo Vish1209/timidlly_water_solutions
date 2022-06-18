@@ -430,11 +430,15 @@ body .fa-facebook {
 body .fa-linkedin {
   background: #0077b5;
   color: white;
+  margin-left: -200px;
+
 }
 
 body .fa-twitter {
   background: #55ACEE;
   color: white;
+  margin-left: -200px;
+
 }
 
 body footer {
