@@ -46,20 +46,26 @@
 
 
     <!-- Hero Start Here -->
-    <!-- <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-          <h1>Login</h1>
+    <form action="/action_page.php">
+        <label for="fname">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
       
-          <label for="email"><b>Name</b></label>
-          <input type="text" placeholder="Enter Name" name="name" required>
+        <label for="mail">Mail Id</label>
+        <input type="text" id="mail" name="mail" placeholder="Your Mail Id...">
       
-          <label for="psw"><b>Best Mail Id</b></label>
-          <input type="mail" placeholder="Enter Mail Id" name="email" required>
+        <label for="Market_segments">Market Segments</label>
+        <select id="market_segments" name="market_segments">
+          <option value="Choose">Choose...</option>
+          <option value="industries">Industries</option>
+          <option value="institute">Institute</option>
+          <option value="home">Home</option>
+          <option value="community">Community</option>
+
+        </select>
+
       
-          <button type="submit" class="btn">Submit</button>
-          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
-      </div> -->
+        <input type="submit" value="Submit">
+      </form>
 
 
 
