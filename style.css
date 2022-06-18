@@ -488,6 +488,8 @@ body footer .footer-warper p {
 body footer .flogo {
   float: left;
   left: 50px;
+  top: 20px;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */

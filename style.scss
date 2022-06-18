@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap');// color
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap'); // color
 $primaryColor: #0156dd;
 $secondaryColor: #fff;
 $thirdcolor: #D9E4EC;
@@ -7,11 +7,11 @@ $linkColor: #000;
 
 // Fonts
 $primaryFont : 'jost',
-sans-serif ;
+sans-serif;
 $secondaryFont : 'jost',
 sans-serif;
-$thirdFont:'Open Sans',
-sans-serif;
+$thirdFont: 'Open Sans',
+    sans-serif;
 
 body {
 
@@ -478,8 +478,11 @@ body {
     footer {
         background: $linkHoverColor;
         height: 80%;
+
         .flogo {
             float: left;
+            top: 20px;
+            position: relative;
 
         }
 
