@@ -279,14 +279,6 @@ body .sections .section5 img {
   left: -80px;
 }
 
-body .container {
-  /* Style inputs */
-  /* Style the container/contact section */
-  /* Create two columns that float next to eachother */
-  /* Clear floats after the columns */
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-}
-
 body .container * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -443,4 +435,8 @@ body footer .footer-warper ul {
 body footer .footer-warper p {
   padding-top: 10em;
 }
+body footer .footer-warper .flogo {
+  float: left;
+}
+
 /*# sourceMappingURL=style.css.map */
