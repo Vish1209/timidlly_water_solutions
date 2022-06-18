@@ -492,13 +492,11 @@ body footer .footer-warper p {
 body footer .footer-warper .flink {
   color: #fff;
   font-family: 'jost', 'sens-serif';
-  top: 150px;
+  top: 120px;
   padding: 80px;
   left: auto;
   right: auto;
-  display: flexbox;
-  cursor: pointer;
- 
+  display: flexbox; 
 }
 body footer .footer-warper .flink ul{
   display: flexbox;
@@ -509,8 +507,8 @@ body footer .footer-warper .flink ul{
 body footer .footer-warper .flink ul li{
   display: flexbox;
   left: 200px;
-  padding: 90px;
-
+  padding: 50px;
+  cursor: pointer;
 }
 body footer .footer-warper .flink ul li:hover{
   color: #000 ;

@@ -514,12 +514,11 @@ body {
             .flink {
                 color: #fff;
                 font-family: 'jost', 'sens-serif';
-                top: 150px;
+                top: 120px;
                 padding: 80px;
                 left: auto;
                 right: auto;
                 display: flexbox;
-                cursor: pointer;
 
 
                 ul {
@@ -528,7 +527,8 @@ body {
                     padding: 90px;
 
                     li{
-                        padding: 90px;
+                        cursor: pointer;
+                        padding: 50px;
                         &:hover{
                             color: $linkColor;
                         }
