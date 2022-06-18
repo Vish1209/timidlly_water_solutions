@@ -496,6 +496,9 @@ body footer .footer-warper .flink {
   padding: 30px;
   left: auto;
   right: auto;
+  display: flexbox;
+  text-align: center;
+  align-items: center;
   
 }
 
