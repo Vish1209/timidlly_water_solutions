@@ -506,7 +506,13 @@ body footer .footer-warper .flink ul{
   padding: 90px;
 
 }
-body footer .footer-warper .flink ul:hover{
+body footer .footer-warper .flink ul li{
+  display: flexbox;
+  left: 200px;
+  padding: 90px;
+
+}
+body footer .footer-warper .flink ul li:hover{
   color: #000 ;
 }
 

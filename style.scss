@@ -527,9 +527,15 @@ body {
                     left: 200px;
                     padding: 90px;
 
-                    &:hover{
-                        color: $linkColor;
+                    li{
+                        padding: 90px;
+                        &:hover{
+                            color: $linkColor;
+                        }
+
                     }
+
+
                 }
             }
 
