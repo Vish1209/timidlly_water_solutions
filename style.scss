@@ -28,9 +28,9 @@ body {
             justify-content: center;
             align-items: center;
             padding-top: 1em;
-            position: -webkit-sticky;
-            position: sticky;
+            position: fixed;
             top: 0;
+            width: 100%;
             img {
                 height: auto;
                 width: 177px
