@@ -130,7 +130,7 @@ body .parent .back-img {
 body .parent .home-pic {
   position: absolute;
   top: -5px;
-  left: 840px;
+  float: left;
   width: 440px;
 }
 
