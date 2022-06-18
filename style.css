@@ -500,7 +500,12 @@ body footer .footer-warper .flink {
 }
 body footer .footer-warper .flink ul{
   display: flexbox;
+  left: 50px;
+  padding: 10px;
 
+}
+body footer .footer-warper .flink ul:hover{
+  color: #000 ;
 }
 
 body footer .flogo {
