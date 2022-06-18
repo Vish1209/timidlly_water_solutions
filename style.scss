@@ -435,11 +435,12 @@ body {
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
-                position: absolute;
                 left: -2%;
             }
             p {
                 padding-top: 10em;
+                left: auto;
+                right: auto;
             }
         }
     }
