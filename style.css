@@ -488,6 +488,9 @@ body footer .footer-warper ul {
 body footer .footer-warper p {
   padding-top: 20em;
 }
+body footer .footer-warper .flink{
+  color: #fff;
+}
 
 body footer .flogo {
   float: left;
