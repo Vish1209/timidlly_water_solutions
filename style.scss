@@ -28,9 +28,10 @@ body {
             justify-content: center;
             align-items: center;
             padding-top: 1em;
-            position: fixed;    //not working (want sticky navbar)
+            position: fixed; //not working (want sticky navbar)
             top: 0;
             width: 100%;
+
             img {
                 height: auto;
                 width: 177px
@@ -114,6 +115,7 @@ body {
             padding: 20px;
             font-family: $primaryFont;
         }
+    }
 
     // for images and heading
 
@@ -130,7 +132,7 @@ body {
             width: 210vh;
         }
 
-           //girl image
+        //girl image
         .home-pic {
             position: absolute;
             top: -5px;
@@ -269,6 +271,7 @@ body {
 
 
         }
+
         .section4 {
             background-color: $thirdcolor;
             height: 350px;
@@ -304,6 +307,7 @@ body {
             }
 
         }
+
         .section5 {
             background-color: $thirdcolor;
             height: 350px;
@@ -483,7 +487,7 @@ body {
             position: relative;
             overflow: hidden;
 
-            ul{
+            ul {
                 list-style: none;
                 display: flex;
                 flex-direction: row;
@@ -491,18 +495,19 @@ body {
                 align-items: center;
                 left: -2%;
             }
+
             p {
                 padding-top: 10em;
                 left: auto;
                 right: auto;
             }
-            .flogo{
+
+            .flogo {
                 float: left;
 
             }
-        } 
+        }
     }
 
 
 }
-
