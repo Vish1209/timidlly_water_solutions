@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap');
+// color
+$primaryColor: #0156dd;
+$secondaryColor: #fff;
+$thirdcolor: #D9E4EC;
+$linkHoverColor: #0a065b;
+$linkColor: #000;
+
+// Fonts
+$primaryFont : 'Open Sans',
+sans-serif;
+$secondaryFont : 'Roboto',
+sans-serif;
+
+body {
+
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+    //  nav Bar
+    .nav {
+        font-family: $primaryFont;
+
+        .nav-warper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 1em;
+
+            img {
+                height: auto;
+                width: 177px
+            }
+
+            ul {
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    margin-left: 3em;
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                    color: $linkColor;
+
+                    &:hover {
+                        color: $linkHoverColor;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: $linkColor;
+
+                        &:hover {
+                            color: $linkHoverColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // for images and heading
+
+    .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+
+        .back-img {
+            position: relative;
+            height: 80vh;
+            width: 210vh;
+        }
+
+        .home-pic {
+            position: absolute;
+            top: -5px;
+            left: 200px;
+            width: 440px;
+        }
+
+        .home {
+            position: absolute;
+            top: 180px;
+            left: 840px;
+            width: 630px;
+        }
+
+        .text {
+            position: absolute;
+            color: $linkHoverColor;
+            font-size: 1.5rem;
+            margin-left: 1010px;
+            top: 20px;
+            font-family: $secondaryFont;
+        }
+    }
+
+    //sections
+    .sections {
+        .section1 {
+            background-color: $thirdcolor;
+            height: 350px;
+            width: 70%;
+            border-radius: 1%;
+            overflow: hidden;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2vh;
+
+            h1 {
+                text-align: left;
+                margin-left: 100px;
+                margin-top: 50px;
+                font-family: $secondaryFont;
+            }
+
+            p {
+                text-align: left;
+                margin-left: 30px;
+                margin-right: 500px;
+                font-family: $primaryFont;
+
+            }
+
+            img {
+                height: 350px;
+                width: 350px;
+                float: right;
+                position: relative;
+                top: -200px;
+                left: -80px;
+            }
+
+
+        }
+
+        .section2 {
+            background-color: $thirdcolor;
+            height: 350px;
+            width: 70%;
+            border-radius: 1%;
+            overflow: hidden;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2vh;
+
+            h1 {
+                text-align: right;
+                margin-right: 100px;
+                margin-top: 50px;
+                font-family: $secondaryFont;
+            }
+
+            p {
+                text-align: right;
+                margin-right: 30px;
+                margin-left: 500px;
+                font-family: $primaryFont;
+            }
+
+            img {
+                height: 300px;
+                width: 330px;
+                float: left;
+                position: relative;
+                top: -155px;
+                right: -80px;
+            }
+
+        }
+
+        .section3 {
+            background-color: $thirdcolor;
+            height: 350px;
+            width: 70%;
+            border-radius: 1%;
+            overflow: hidden;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2vh;
+
+            h1 {
+                text-align: left;
+                margin-left: 100px;
+                margin-top: 50px;
+                font-family: $secondaryFont;
+            }
+
+            p {
+                text-align: left;
+                margin-left: 30px;
+                margin-right: 500px;
+                font-family: $primaryFont;
+
+            }
+
+            img {
+                height: 370px;
+                width: 370px;
+                float: right;
+                position: relative;
+                top: -300px;
+                left: -80px;
+            }
+
+
+        }
+        .section4 {
+            background-color: $thirdcolor;
+            height: 350px;
+            width: 70%;
+            border-radius: 1%;
+            overflow: hidden;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2vh;
+
+            h1 {
+                text-align: right;
+                margin-right: 60px;
+                margin-top: 50px;
+                font-family: $secondaryFont;
+            }
+
+            p {
+                text-align: right;
+                margin-right: 30px;
+                margin-left: 500px;
+                font-family: $primaryFont;
+            }
+
+            img {
+                height: 300px;
+                width: 300px;
+                float: left;
+                position: relative;
+                top: -160px;
+                right: -80px;
+            }
+
+        }
+        .section5 {
+            background-color: $thirdcolor;
+            height: 350px;
+            width: 70%;
+            border-radius: 1%;
+            overflow: hidden;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2vh;
+
+            h1 {
+                text-align: left;
+                margin-left: 100px;
+                margin-top: 50px;
+                font-family: $secondaryFont;
+            }
+
+            p {
+                text-align: left;
+                margin-left: 30px;
+                margin-right: 500px;
+                font-family: $primaryFont;
+
+            }
+
+            img {
+                height: 360px;
+                width: 360px;
+                float: right;
+                position: relative;
+                top: -200px;
+                left: -80px;
+            }
+
+
+        }
+    }
+
+    //contact form
+    .container {
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style inputs */
+        input[type=text],
+        select,
+        textarea {
+            font-family: $primaryFont;
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            font-family: $primaryFont;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Style the container/contact section */
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            font-family: $secondaryFont;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+            float: left;
+            width: 50%;
+            margin-top: 6px;
+            padding: 20px;
+            font-family: $primaryFont;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+
+            .column,
+            input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+    }
+
+    //about
+    #about {
+        h1 {
+            text-align: center;
+            padding: 5px;
+            font-size: 2.2rem;
+            font-family: $secondaryFont ;
+        }
+
+        p {
+            text-align: center;
+            padding: 2px;
+            font-family: $primaryFont;
+            padding-bottom: 100px;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+
+    //social buttons in footer
+
+    .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        margin: 20px;
+        text-decoration: none;
+        border-radius: 50%;
+        display: flexbox;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        margin-left: 630px;
+    }
+
+    .fa-linkedin {
+        background: #0077b5;
+        color: white;
+    }
+
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+
+
+
+    //footer
+
+    footer {
+        background: $linkHoverColor;
+        height: 20%;
+
+        .footer-warper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: $primaryFont;
+            color: $linkColor;
+            position: relative;
+            overflow: hidden;
+
+            ul{
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: -2%;
+            }
+            p {
+                padding-top: 10em;
+            }
+        }
+    }
+
+
+}
+
