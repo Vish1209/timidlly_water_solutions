@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400&display=swap");
+
 body {
   overflow-x: hidden;
   margin: 0;
@@ -15,14 +16,14 @@ body .nav .nav-warper {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 1em;
 }
 
@@ -38,14 +39,14 @@ body .nav .nav-warper ul {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 body .nav .nav-warper ul li {
@@ -66,6 +67,51 @@ body .nav .nav-warper ul li a {
 
 body .nav .nav-warper ul li a:hover {
   color: #0a065b;
+}
+
+body .form * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body .form input[type=text],
+body .form select,
+body .form textarea {
+  font-family: "Open Sans", sans-serif;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+body .form input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+body .form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+body .form .form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+body .form .column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 
 body .parent {
@@ -281,7 +327,7 @@ body .sections .section5 img {
 
 body .container * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body .container input[type=text],
@@ -331,6 +377,7 @@ body .container .row:after {
 }
 
 @media screen and (max-width: 600px) {
+
   body .container .column,
   body .container input[type=submit] {
     width: 100%;
@@ -399,14 +446,14 @@ body footer .footer-warper {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-family: "Open Sans", sans-serif;
   color: #000;
   position: relative;
@@ -420,14 +467,14 @@ body footer .footer-warper ul {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: absolute;
   left: -2%;
 }
@@ -435,6 +482,7 @@ body footer .footer-warper ul {
 body footer .footer-warper p {
   padding-top: 10em;
 }
+
 body footer .footer-warper .flogo {
   float: left;
 }
