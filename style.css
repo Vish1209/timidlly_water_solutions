@@ -137,7 +137,7 @@ body .parent .home-pic {
 body .parent .home {
   position: absolute;
   top: 180px;
-  left: 150px;
+  left: 100px;
   width: 630px;
 }
 
@@ -145,7 +145,7 @@ body .parent .text {
   position: absolute;
   color: #0a065b;
   font-size: 1.5rem;
-  margin-left: 50px;
+  margin-left: 100px;
   top: 20px;
   font-family: "Roboto", sans-serif;
 }
