@@ -496,9 +496,11 @@ body footer .footer-warper .flink {
   padding: 80px;
   left: auto;
   right: auto;
+  display: flexbox; 
+}
+body footer .footer-warper .flink ul{
   display: flexbox;
 
-  
 }
 
 body footer .flogo {
