@@ -68,14 +68,14 @@ body {
         }
     }
     .form{
-        color: #fff;
+        color: $secondaryColor;
         display: inline-block;
         vertical-align: middle;
         text-align: center;
         vertical-align: middle;
         right: 0;
         left: 0;
-        background-color: #000;
+        background-color: $linkColor;
       }
       input[type=text], select {
         font-family: 'jost','sens-serif';
@@ -83,7 +83,7 @@ body {
         padding: 15px 20px 0 10px;
         margin: 8px 0;
         display: inline-block;
-        border: 1px solid #ccc;
+        border: 1px solid $secondaryColor;
         border-radius: 4px;
         box-sizing: border-box;
       }
@@ -92,7 +92,7 @@ body {
       input[type=submit] {
         width: 20%;
         background-color: #04AA6D;
-        color: white;
+        color: $secondaryColor;
         padding: 14px 20px;
         margin: 8px 0;
         border: none;
